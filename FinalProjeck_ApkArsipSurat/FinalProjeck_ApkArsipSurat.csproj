@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Disposisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Disposisi.Designer.cs">
+      <DependentUpon>Disposisi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Halaman Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Disposisi.resx">
+      <DependentUpon>Disposisi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
