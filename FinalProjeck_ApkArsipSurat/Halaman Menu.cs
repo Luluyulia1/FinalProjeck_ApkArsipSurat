@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FinalProjeck_ApkArsipSurat
 {
-    public partial class Disposisi : Form
+    public partial class Halaman_Menu : Form
     {
-        public Disposisi()
+        public Halaman_Menu()
         {
             InitializeComponent();
         }
