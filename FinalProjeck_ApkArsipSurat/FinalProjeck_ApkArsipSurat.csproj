@@ -58,6 +58,12 @@
     <Compile Include="Halaman Menu.Designer.cs">
       <DependentUpon>Halaman Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Input_sk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Input_sk.Designer.cs">
+      <DependentUpon>Input_sk.cs</DependentUpon>
+    </Compile>
     <Compile Include="input_surat_keluar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Disposisi.resx">
       <DependentUpon>Disposisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Input_sk.resx">
+      <DependentUpon>Input_sk.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="input_surat_keluar.resx">
       <DependentUpon>input_surat_keluar.cs</DependentUpon>
