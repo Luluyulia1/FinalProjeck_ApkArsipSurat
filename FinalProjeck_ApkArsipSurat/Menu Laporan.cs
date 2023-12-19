@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace FinalProjeck_ApkArsipSurat
 {
-    public partial class Form2 : Form
+    public partial class Menu_Laporan : Form
     {
-        public Form2()
+        public Menu_Laporan()
         {
             InitializeComponent();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

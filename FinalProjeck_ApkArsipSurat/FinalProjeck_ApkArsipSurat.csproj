@@ -52,12 +52,6 @@
     <Compile Include="Disposisi.Designer.cs">
       <DependentUpon>Disposisi.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </Compile>
     <Compile Include="Halaman Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,19 +64,28 @@
     <Compile Include="input_surat_keluar.Designer.cs">
       <DependentUpon>input_surat_keluar.cs</DependentUpon>
     </Compile>
+    <Compile Include="LaporanDisposisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaporanDisposisi.Designer.cs">
+      <DependentUpon>LaporanDisposisi.cs</DependentUpon>
+    </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="login.Designer.cs">
       <DependentUpon>login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu Laporan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu Laporan.Designer.cs">
+      <DependentUpon>Menu Laporan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Disposisi.resx">
       <DependentUpon>Disposisi.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Halaman Menu.resx">
       <DependentUpon>Halaman Menu.cs</DependentUpon>
@@ -90,8 +93,14 @@
     <EmbeddedResource Include="input_surat_keluar.resx">
       <DependentUpon>input_surat_keluar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LaporanDisposisi.resx">
+      <DependentUpon>LaporanDisposisi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu Laporan.resx">
+      <DependentUpon>Menu Laporan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
