@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FinalProjeck_ApkArsipSurat
 {
-    public partial class Input_sk : Form
+    public partial class Form2 : Form
     {
-        public Input_sk()
+        public Form2()
         {
             InitializeComponent();
         }
