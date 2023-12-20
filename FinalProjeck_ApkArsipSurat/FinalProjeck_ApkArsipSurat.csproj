@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Hasil_Laporansk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hasil_Laporansk.Designer.cs">
+      <DependentUpon>Hasil_Laporansk.cs</DependentUpon>
+    </Compile>
     <Compile Include="input_sk.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Hasil_Laporansk.resx">
+      <DependentUpon>Hasil_Laporansk.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="input_sk.resx">
       <DependentUpon>input_sk.cs</DependentUpon>
     </EmbeddedResource>
