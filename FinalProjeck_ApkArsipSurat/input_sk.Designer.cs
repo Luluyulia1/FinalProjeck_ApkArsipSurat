@@ -49,15 +49,15 @@ namespace FinalProjeck_ApkArsipSurat
             this.btnBatal = new System.Windows.Forms.Button();
             this.btnSimpan = new System.Windows.Forms.Button();
             this.btnBaru = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.numerictanggal = new System.Windows.Forms.NumericUpDown();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.txtCaridata = new System.Windows.Forms.TextBox();
             this.btnCari = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvdatasuratkeluar = new System.Windows.Forms.DataGridView();
             this.btnKembali = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numerictanggal)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvdatasuratkeluar)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -232,12 +232,12 @@ namespace FinalProjeck_ApkArsipSurat
             this.btnBaru.Text = "Baru";
             this.btnBaru.UseVisualStyleBackColor = true;
             // 
-            // numericUpDown1
+            // numerictanggal
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(152, 242);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(393, 26);
-            this.numericUpDown1.TabIndex = 20;
+            this.numerictanggal.Location = new System.Drawing.Point(152, 242);
+            this.numerictanggal.Name = "numerictanggal";
+            this.numerictanggal.Size = new System.Drawing.Size(393, 26);
+            this.numerictanggal.TabIndex = 20;
             // 
             // label9
             // 
@@ -274,15 +274,15 @@ namespace FinalProjeck_ApkArsipSurat
             this.btnCari.Text = "Cari";
             this.btnCari.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // dgvdatasuratkeluar
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(611, 123);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(532, 305);
-            this.dataGridView1.TabIndex = 25;
+            this.dgvdatasuratkeluar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvdatasuratkeluar.Location = new System.Drawing.Point(611, 123);
+            this.dgvdatasuratkeluar.Name = "dgvdatasuratkeluar";
+            this.dgvdatasuratkeluar.RowHeadersWidth = 62;
+            this.dgvdatasuratkeluar.RowTemplate.Height = 28;
+            this.dgvdatasuratkeluar.Size = new System.Drawing.Size(532, 305);
+            this.dgvdatasuratkeluar.TabIndex = 25;
             // 
             // btnKembali
             // 
@@ -300,12 +300,12 @@ namespace FinalProjeck_ApkArsipSurat
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(1181, 545);
             this.Controls.Add(this.btnKembali);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvdatasuratkeluar);
             this.Controls.Add(this.btnCari);
             this.Controls.Add(this.txtCaridata);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.numerictanggal);
             this.Controls.Add(this.btnBaru);
             this.Controls.Add(this.btnSimpan);
             this.Controls.Add(this.btnBatal);
@@ -328,8 +328,9 @@ namespace FinalProjeck_ApkArsipSurat
             this.Controls.Add(this.label1);
             this.Name = "input_sk";
             this.Text = "input_sk";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.input_sk_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.numerictanggal)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvdatasuratkeluar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -357,12 +358,12 @@ namespace FinalProjeck_ApkArsipSurat
         private System.Windows.Forms.Button btnBatal;
         private System.Windows.Forms.Button btnSimpan;
         private System.Windows.Forms.Button btnBaru;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown numerictanggal;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtCaridata;
         private System.Windows.Forms.Button btnCari;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvdatasuratkeluar;
         private System.Windows.Forms.Button btnKembali;
     }
 }
