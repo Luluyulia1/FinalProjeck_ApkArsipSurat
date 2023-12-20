@@ -58,6 +58,12 @@
     <Compile Include="Halaman Menu.Designer.cs">
       <DependentUpon>Halaman Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Hasil_LaporanSM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hasil_LaporanSM.Designer.cs">
+      <DependentUpon>Hasil_LaporanSM.cs</DependentUpon>
+    </Compile>
     <Compile Include="input_surat_keluar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Halaman Menu.resx">
       <DependentUpon>Halaman Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hasil_LaporanSM.resx">
+      <DependentUpon>Hasil_LaporanSM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="input_surat_keluar.resx">
       <DependentUpon>input_surat_keluar.cs</DependentUpon>
