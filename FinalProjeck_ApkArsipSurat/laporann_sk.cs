@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FinalProjeck_ApkArsipSurat
 {
-    public partial class laporan_sk : Form
+    public partial class laporann_sk : Form
     {
-        public laporan_sk()
+        public laporann_sk()
         {
             InitializeComponent();
         }
