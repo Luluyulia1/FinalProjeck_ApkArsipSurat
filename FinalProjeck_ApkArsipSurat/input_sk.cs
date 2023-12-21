@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace FinalProjeck_ApkArsipSurat
 {
@@ -16,6 +17,14 @@ namespace FinalProjeck_ApkArsipSurat
         {
             InitializeComponent();
         }
+        SqlConnection con = new SqlConnection
+        (@"Data Source = .\SQLEXPRESS ; Initial Catalog=db21sa1157; Integrated
+        Security=True");
+        private void showdata()
+        {
+
+        }
+
 
         private void label3_Click(object sender, EventArgs e)
         {

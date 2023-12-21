@@ -70,6 +70,7 @@ namespace FinalProjeck_ApkArsipSurat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(680, 481);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
