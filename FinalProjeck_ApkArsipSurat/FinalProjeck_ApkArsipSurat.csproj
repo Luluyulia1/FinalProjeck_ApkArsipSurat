@@ -52,25 +52,25 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Hasil_Laporansk.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Hasil_Laporansk.Designer.cs">
-      <DependentUpon>Hasil_Laporansk.cs</DependentUpon>
-    </Compile>
     <Compile Include="input_sk.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="input_sk.Designer.cs">
       <DependentUpon>input_sk.cs</DependentUpon>
     </Compile>
+    <Compile Include="laporan_Surat_Keluar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan_Surat_Keluar.Designer.cs">
+      <DependentUpon>laporan_Surat_Keluar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Hasil_Laporansk.resx">
-      <DependentUpon>Hasil_Laporansk.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="input_sk.resx">
       <DependentUpon>input_sk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan_Surat_Keluar.resx">
+      <DependentUpon>laporan_Surat_Keluar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

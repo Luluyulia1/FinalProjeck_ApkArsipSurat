@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace FinalProjeck_ApkArsipSurat
 {
-    public partial class Hasil_Laporansk : Form
+    public partial class laporan_Surat_Keluar : Form
     {
-        public Hasil_Laporansk()
+        public laporan_Surat_Keluar()
         {
             InitializeComponent();
+        }
+
+        private void laporan_Surat_Keluar_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
