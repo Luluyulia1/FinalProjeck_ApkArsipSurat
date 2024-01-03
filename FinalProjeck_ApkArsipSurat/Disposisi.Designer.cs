@@ -29,29 +29,29 @@ namespace FinalProjeck_ApkArsipSurat
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txtNo = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtId = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtStatus = new System.Windows.Forms.TextBox();
+            this.txtPengirim = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtKepada = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCetak = new System.Windows.Forms.Button();
+            this.btnUbah = new System.Windows.Forms.Button();
+            this.btnHapus = new System.Windows.Forms.Button();
+            this.btnBatal = new System.Windows.Forms.Button();
+            this.btnSimpan = new System.Windows.Forms.Button();
+            this.btnBaru = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvDisposisi = new System.Windows.Forms.DataGridView();
             this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtCatatan = new System.Windows.Forms.TextBox();
+            this.txtIsi = new System.Windows.Forms.TextBox();
+            this.txtTujuan = new System.Windows.Forms.TextBox();
+            this.txtIdSM = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -59,15 +59,15 @@ namespace FinalProjeck_ApkArsipSurat
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDisposisi)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox10
+            // txtNo
             // 
-            this.textBox10.Location = new System.Drawing.Point(163, 110);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(327, 22);
-            this.textBox10.TabIndex = 114;
+            this.txtNo.Location = new System.Drawing.Point(163, 110);
+            this.txtNo.Name = "txtNo";
+            this.txtNo.Size = new System.Drawing.Size(327, 22);
+            this.txtNo.TabIndex = 114;
             // 
             // label11
             // 
@@ -80,12 +80,13 @@ namespace FinalProjeck_ApkArsipSurat
             this.label11.TabIndex = 113;
             this.label11.Text = "No Surat";
             // 
-            // textBox9
+            // txtId
             // 
-            this.textBox9.Location = new System.Drawing.Point(163, 72);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(327, 22);
-            this.textBox9.TabIndex = 112;
+            this.txtId.Location = new System.Drawing.Point(163, 72);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(327, 22);
+            this.txtId.TabIndex = 112;
+            this.txtId.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
             // 
             // label10
             // 
@@ -98,19 +99,19 @@ namespace FinalProjeck_ApkArsipSurat
             this.label10.TabIndex = 111;
             this.label10.Text = "Id Disposisi";
             // 
-            // textBox8
+            // txtStatus
             // 
-            this.textBox8.Location = new System.Drawing.Point(163, 408);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(327, 22);
-            this.textBox8.TabIndex = 110;
+            this.txtStatus.Location = new System.Drawing.Point(163, 408);
+            this.txtStatus.Name = "txtStatus";
+            this.txtStatus.Size = new System.Drawing.Size(327, 22);
+            this.txtStatus.TabIndex = 110;
             // 
-            // textBox7
+            // txtPengirim
             // 
-            this.textBox7.Location = new System.Drawing.Point(163, 363);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(327, 22);
-            this.textBox7.TabIndex = 109;
+            this.txtPengirim.Location = new System.Drawing.Point(163, 363);
+            this.txtPengirim.Name = "txtPengirim";
+            this.txtPengirim.Size = new System.Drawing.Size(327, 22);
+            this.txtPengirim.TabIndex = 109;
             // 
             // label8
             // 
@@ -123,12 +124,12 @@ namespace FinalProjeck_ApkArsipSurat
             this.label8.TabIndex = 108;
             this.label8.Text = "Pengirim";
             // 
-            // textBox4
+            // txtKepada
             // 
-            this.textBox4.Location = new System.Drawing.Point(163, 319);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(327, 22);
-            this.textBox4.TabIndex = 107;
+            this.txtKepada.Location = new System.Drawing.Point(163, 319);
+            this.txtKepada.Name = "txtKepada";
+            this.txtKepada.Size = new System.Drawing.Size(327, 22);
+            this.txtKepada.TabIndex = 107;
             // 
             // label2
             // 
@@ -141,71 +142,77 @@ namespace FinalProjeck_ApkArsipSurat
             this.label2.TabIndex = 106;
             this.label2.Text = "Kepada";
             // 
-            // button8
+            // btnCetak
             // 
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button8.Location = new System.Drawing.Point(430, 464);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 105;
-            this.button8.Text = "Cetak";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnCetak.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCetak.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnCetak.Location = new System.Drawing.Point(430, 464);
+            this.btnCetak.Name = "btnCetak";
+            this.btnCetak.Size = new System.Drawing.Size(75, 23);
+            this.btnCetak.TabIndex = 105;
+            this.btnCetak.Text = "Cetak";
+            this.btnCetak.UseVisualStyleBackColor = true;
+            this.btnCetak.Click += new System.EventHandler(this.btnCetak_Click);
             // 
-            // button7
+            // btnUbah
             // 
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button7.Location = new System.Drawing.Point(349, 464);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 104;
-            this.button7.Text = "Ubah";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnUbah.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUbah.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnUbah.Location = new System.Drawing.Point(349, 464);
+            this.btnUbah.Name = "btnUbah";
+            this.btnUbah.Size = new System.Drawing.Size(75, 23);
+            this.btnUbah.TabIndex = 104;
+            this.btnUbah.Text = "Ubah";
+            this.btnUbah.UseVisualStyleBackColor = true;
+            this.btnUbah.Click += new System.EventHandler(this.btnUbah_Click);
             // 
-            // button6
+            // btnHapus
             // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button6.Location = new System.Drawing.Point(268, 464);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 103;
-            this.button6.Text = "Hapus";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnHapus.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHapus.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnHapus.Location = new System.Drawing.Point(268, 464);
+            this.btnHapus.Name = "btnHapus";
+            this.btnHapus.Size = new System.Drawing.Size(75, 23);
+            this.btnHapus.TabIndex = 103;
+            this.btnHapus.Text = "Hapus";
+            this.btnHapus.UseVisualStyleBackColor = true;
+            this.btnHapus.Click += new System.EventHandler(this.btnHapus_Click);
             // 
-            // button3
+            // btnBatal
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.Location = new System.Drawing.Point(187, 464);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 102;
-            this.button3.Text = "Batal";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnBatal.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBatal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnBatal.Location = new System.Drawing.Point(187, 464);
+            this.btnBatal.Name = "btnBatal";
+            this.btnBatal.Size = new System.Drawing.Size(75, 23);
+            this.btnBatal.TabIndex = 102;
+            this.btnBatal.Text = "Batal";
+            this.btnBatal.UseVisualStyleBackColor = true;
+            this.btnBatal.Click += new System.EventHandler(this.btnBatal_Click);
             // 
-            // button2
+            // btnSimpan
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(106, 464);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 101;
-            this.button2.Text = "Simpan";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnSimpan.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSimpan.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSimpan.Location = new System.Drawing.Point(106, 464);
+            this.btnSimpan.Name = "btnSimpan";
+            this.btnSimpan.Size = new System.Drawing.Size(75, 23);
+            this.btnSimpan.TabIndex = 101;
+            this.btnSimpan.Text = "Simpan";
+            this.btnSimpan.UseVisualStyleBackColor = true;
+            this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
-            // button1
+            // btnBaru
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(25, 464);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 100;
-            this.button1.Text = "Baru";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnBaru.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBaru.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnBaru.Location = new System.Drawing.Point(25, 464);
+            this.btnBaru.Name = "btnBaru";
+            this.btnBaru.Size = new System.Drawing.Size(75, 23);
+            this.btnBaru.TabIndex = 100;
+            this.btnBaru.Text = "Baru";
+            this.btnBaru.UseVisualStyleBackColor = true;
+            this.btnBaru.Click += new System.EventHandler(this.btnBaru_Click);
             // 
             // button5
             // 
@@ -229,16 +236,16 @@ namespace FinalProjeck_ApkArsipSurat
             this.button4.Text = "Kembali";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // dgvDisposisi
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(528, 123);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(410, 156);
-            this.dataGridView1.TabIndex = 97;
+            this.dgvDisposisi.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
+            this.dgvDisposisi.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDisposisi.Location = new System.Drawing.Point(528, 123);
+            this.dgvDisposisi.Name = "dgvDisposisi";
+            this.dgvDisposisi.RowHeadersWidth = 51;
+            this.dgvDisposisi.RowTemplate.Height = 24;
+            this.dgvDisposisi.Size = new System.Drawing.Size(410, 156);
+            this.dgvDisposisi.TabIndex = 97;
             // 
             // textBox6
             // 
@@ -247,33 +254,33 @@ namespace FinalProjeck_ApkArsipSurat
             this.textBox6.Size = new System.Drawing.Size(151, 22);
             this.textBox6.TabIndex = 96;
             // 
-            // textBox5
+            // txtCatatan
             // 
-            this.textBox5.Location = new System.Drawing.Point(163, 276);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(327, 22);
-            this.textBox5.TabIndex = 95;
+            this.txtCatatan.Location = new System.Drawing.Point(163, 276);
+            this.txtCatatan.Name = "txtCatatan";
+            this.txtCatatan.Size = new System.Drawing.Size(327, 22);
+            this.txtCatatan.TabIndex = 95;
             // 
-            // textBox3
+            // txtIsi
             // 
-            this.textBox3.Location = new System.Drawing.Point(163, 234);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(327, 22);
-            this.textBox3.TabIndex = 94;
+            this.txtIsi.Location = new System.Drawing.Point(163, 234);
+            this.txtIsi.Name = "txtIsi";
+            this.txtIsi.Size = new System.Drawing.Size(327, 22);
+            this.txtIsi.TabIndex = 94;
             // 
-            // textBox2
+            // txtTujuan
             // 
-            this.textBox2.Location = new System.Drawing.Point(163, 193);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(327, 22);
-            this.textBox2.TabIndex = 93;
+            this.txtTujuan.Location = new System.Drawing.Point(163, 193);
+            this.txtTujuan.Name = "txtTujuan";
+            this.txtTujuan.Size = new System.Drawing.Size(327, 22);
+            this.txtTujuan.TabIndex = 93;
             // 
-            // textBox1
+            // txtIdSM
             // 
-            this.textBox1.Location = new System.Drawing.Point(163, 147);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(327, 22);
-            this.textBox1.TabIndex = 92;
+            this.txtIdSM.Location = new System.Drawing.Point(163, 147);
+            this.txtIdSM.Name = "txtIdSM";
+            this.txtIdSM.Size = new System.Drawing.Size(327, 22);
+            this.txtIdSM.TabIndex = 92;
             // 
             // label9
             // 
@@ -358,29 +365,29 @@ namespace FinalProjeck_ApkArsipSurat
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(963, 517);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.txtNo);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.txtId);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.txtStatus);
+            this.Controls.Add(this.txtPengirim);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtKepada);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCetak);
+            this.Controls.Add(this.btnUbah);
+            this.Controls.Add(this.btnHapus);
+            this.Controls.Add(this.btnBatal);
+            this.Controls.Add(this.btnSimpan);
+            this.Controls.Add(this.btnBaru);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvDisposisi);
             this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtCatatan);
+            this.Controls.Add(this.txtIsi);
+            this.Controls.Add(this.txtTujuan);
+            this.Controls.Add(this.txtIdSM);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -390,7 +397,8 @@ namespace FinalProjeck_ApkArsipSurat
             this.Controls.Add(this.label1);
             this.Name = "Disposisi";
             this.Text = "Disposisi";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.Disposisi_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDisposisi)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -398,29 +406,29 @@ namespace FinalProjeck_ApkArsipSurat
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txtNo;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtStatus;
+        private System.Windows.Forms.TextBox txtPengirim;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtKepada;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCetak;
+        private System.Windows.Forms.Button btnUbah;
+        private System.Windows.Forms.Button btnHapus;
+        private System.Windows.Forms.Button btnBatal;
+        private System.Windows.Forms.Button btnSimpan;
+        private System.Windows.Forms.Button btnBaru;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvDisposisi;
         private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtCatatan;
+        private System.Windows.Forms.TextBox txtIsi;
+        private System.Windows.Forms.TextBox txtTujuan;
+        private System.Windows.Forms.TextBox txtIdSM;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
