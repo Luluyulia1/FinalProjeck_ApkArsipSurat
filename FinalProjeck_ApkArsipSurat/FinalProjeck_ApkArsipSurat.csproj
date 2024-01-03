@@ -76,6 +76,12 @@
     <Compile Include="Input_surat_masuk.Designer.cs">
       <DependentUpon>Input_surat_masuk.cs</DependentUpon>
     </Compile>
+    <Compile Include="jenis_surat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jenis_surat.Designer.cs">
+      <DependentUpon>jenis_surat.cs</DependentUpon>
+    </Compile>
     <Compile Include="LaporanDisposisi.cs">
       <SubType>Form</SubType>
     </Compile>
