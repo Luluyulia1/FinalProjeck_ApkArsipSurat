@@ -82,6 +82,12 @@
     <Compile Include="LaporanDisposisi.Designer.cs">
       <DependentUpon>LaporanDisposisi.cs</DependentUpon>
     </Compile>
+    <Compile Include="laporan_suratkeluar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan_suratkeluar.Designer.cs">
+      <DependentUpon>laporan_suratkeluar.cs</DependentUpon>
+    </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
