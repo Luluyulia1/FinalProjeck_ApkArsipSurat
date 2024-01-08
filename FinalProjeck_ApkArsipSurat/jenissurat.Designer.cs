@@ -1,7 +1,7 @@
 ﻿
 namespace FinalProjeck_ApkArsipSurat
 {
-    partial class Jenis_surat
+    partial class jenissurat
     {
         /// <summary>
         /// Required designer variable.
@@ -29,11 +29,11 @@ namespace FinalProjeck_ApkArsipSurat
         /// </summary>
         private void InitializeComponent()
         {
-            this.label2 = new System.Windows.Forms.Label();
             this.btnClear = new System.Windows.Forms.Button();
+            this.dgJS = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.btnUbah = new System.Windows.Forms.Button();
-            this.dgJS = new System.Windows.Forms.DataGridView();
+            this.label2 = new System.Windows.Forms.Label();
             this.btnSimpan = new System.Windows.Forms.Button();
             this.btnHapus = new System.Windows.Forms.Button();
             this.btnTambah = new System.Windows.Forms.Button();
@@ -46,27 +46,25 @@ namespace FinalProjeck_ApkArsipSurat
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Book Antiqua", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(673, 22);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(114, 25);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Jenis Surat";
-            // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(383, 361);
+            this.btnClear.Location = new System.Drawing.Point(435, 349);
             this.btnClear.Margin = new System.Windows.Forms.Padding(4);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(88, 37);
-            this.btnClear.TabIndex = 126;
+            this.btnClear.TabIndex = 115;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
+            // 
+            // dgJS
+            // 
+            this.dgJS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgJS.Location = new System.Drawing.Point(556, 152);
+            this.dgJS.Margin = new System.Windows.Forms.Padding(4);
+            this.dgJS.Name = "dgJS";
+            this.dgJS.RowHeadersWidth = 51;
+            this.dgJS.Size = new System.Drawing.Size(536, 314);
+            this.dgJS.TabIndex = 110;
             // 
             // label1
             // 
@@ -76,96 +74,98 @@ namespace FinalProjeck_ApkArsipSurat
             this.label1.Location = new System.Drawing.Point(19, 12);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 37);
+            this.label1.Size = new System.Drawing.Size(178, 47);
             this.label1.TabIndex = 1;
             this.label1.Text = "Arsip Surat";
             // 
             // btnUbah
             // 
-            this.btnUbah.Location = new System.Drawing.Point(192, 361);
+            this.btnUbah.Location = new System.Drawing.Point(244, 349);
             this.btnUbah.Margin = new System.Windows.Forms.Padding(4);
             this.btnUbah.Name = "btnUbah";
             this.btnUbah.Size = new System.Drawing.Size(89, 37);
-            this.btnUbah.TabIndex = 125;
+            this.btnUbah.TabIndex = 114;
             this.btnUbah.Text = "Ubah";
             this.btnUbah.UseVisualStyleBackColor = true;
             // 
-            // dgJS
+            // label2
             // 
-            this.dgJS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgJS.Location = new System.Drawing.Point(504, 164);
-            this.dgJS.Margin = new System.Windows.Forms.Padding(4);
-            this.dgJS.Name = "dgJS";
-            this.dgJS.RowHeadersWidth = 51;
-            this.dgJS.Size = new System.Drawing.Size(536, 314);
-            this.dgJS.TabIndex = 121;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Book Antiqua", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(673, 22);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(148, 32);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Jenis Surat";
             // 
             // btnSimpan
             // 
-            this.btnSimpan.Location = new System.Drawing.Point(103, 361);
+            this.btnSimpan.Location = new System.Drawing.Point(155, 349);
             this.btnSimpan.Margin = new System.Windows.Forms.Padding(4);
             this.btnSimpan.Name = "btnSimpan";
             this.btnSimpan.Size = new System.Drawing.Size(81, 37);
-            this.btnSimpan.TabIndex = 123;
+            this.btnSimpan.TabIndex = 112;
             this.btnSimpan.Text = "Simpan";
             this.btnSimpan.UseVisualStyleBackColor = true;
             // 
             // btnHapus
             // 
-            this.btnHapus.Location = new System.Drawing.Point(290, 361);
+            this.btnHapus.Location = new System.Drawing.Point(342, 349);
             this.btnHapus.Margin = new System.Windows.Forms.Padding(4);
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.Size = new System.Drawing.Size(85, 37);
-            this.btnHapus.TabIndex = 124;
+            this.btnHapus.TabIndex = 113;
             this.btnHapus.Text = "Hapus";
             this.btnHapus.UseVisualStyleBackColor = true;
             // 
             // btnTambah
             // 
-            this.btnTambah.Location = new System.Drawing.Point(14, 361);
+            this.btnTambah.Location = new System.Drawing.Point(66, 349);
             this.btnTambah.Margin = new System.Windows.Forms.Padding(4);
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.Size = new System.Drawing.Size(81, 37);
-            this.btnTambah.TabIndex = 122;
+            this.btnTambah.TabIndex = 111;
             this.btnTambah.Text = "Tambah";
             this.btnTambah.UseVisualStyleBackColor = true;
             // 
             // txtJS
             // 
-            this.txtJS.Location = new System.Drawing.Point(192, 239);
+            this.txtJS.Location = new System.Drawing.Point(244, 227);
             this.txtJS.Margin = new System.Windows.Forms.Padding(4);
             this.txtJS.Name = "txtJS";
-            this.txtJS.Size = new System.Drawing.Size(284, 20);
-            this.txtJS.TabIndex = 120;
+            this.txtJS.Size = new System.Drawing.Size(284, 22);
+            this.txtJS.TabIndex = 109;
             // 
             // txtKodeJS
             // 
-            this.txtKodeJS.Location = new System.Drawing.Point(192, 197);
+            this.txtKodeJS.Location = new System.Drawing.Point(244, 185);
             this.txtKodeJS.Margin = new System.Windows.Forms.Padding(4);
             this.txtKodeJS.Name = "txtKodeJS";
-            this.txtKodeJS.Size = new System.Drawing.Size(284, 20);
-            this.txtKodeJS.TabIndex = 119;
+            this.txtKodeJS.Size = new System.Drawing.Size(284, 22);
+            this.txtKodeJS.TabIndex = 108;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(31, 244);
+            this.label4.Location = new System.Drawing.Point(83, 232);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(74, 16);
-            this.label4.TabIndex = 118;
+            this.label4.Size = new System.Drawing.Size(94, 20);
+            this.label4.TabIndex = 107;
             this.label4.Text = "Jenis Surat";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(31, 202);
+            this.label3.Location = new System.Drawing.Point(83, 190);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(109, 16);
-            this.label3.TabIndex = 117;
+            this.label3.Size = new System.Drawing.Size(137, 20);
+            this.label3.TabIndex = 106;
             this.label3.Text = "Kode Jenis Surat";
             // 
             // panel1
@@ -177,17 +177,17 @@ namespace FinalProjeck_ApkArsipSurat
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1104, 75);
-            this.panel1.TabIndex = 116;
+            this.panel1.Size = new System.Drawing.Size(1206, 75);
+            this.panel1.TabIndex = 105;
             // 
-            // Jenis_surat
+            // jenissurat
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1104, 527);
+            this.ClientSize = new System.Drawing.Size(1206, 591);
             this.Controls.Add(this.btnClear);
-            this.Controls.Add(this.btnUbah);
             this.Controls.Add(this.dgJS);
+            this.Controls.Add(this.btnUbah);
             this.Controls.Add(this.btnSimpan);
             this.Controls.Add(this.btnHapus);
             this.Controls.Add(this.btnTambah);
@@ -196,8 +196,8 @@ namespace FinalProjeck_ApkArsipSurat
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
-            this.Name = "Jenis_surat";
-            this.Text = "Jenis_surat";
+            this.Name = "jenissurat";
+            this.Text = "jenissurat";
             ((System.ComponentModel.ISupportInitialize)(this.dgJS)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -208,11 +208,11 @@ namespace FinalProjeck_ApkArsipSurat
 
         #endregion
 
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.DataGridView dgJS;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnUbah;
-        private System.Windows.Forms.DataGridView dgJS;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnSimpan;
         private System.Windows.Forms.Button btnHapus;
         private System.Windows.Forms.Button btnTambah;

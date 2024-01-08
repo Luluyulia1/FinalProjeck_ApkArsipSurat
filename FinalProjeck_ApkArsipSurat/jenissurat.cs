@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FinalProjeck_ApkArsipSurat
 {
-    public partial class Jenis_surat : Form
+    public partial class jenissurat : Form
     {
-        public Jenis_surat()
+        public jenissurat()
         {
             InitializeComponent();
         }
