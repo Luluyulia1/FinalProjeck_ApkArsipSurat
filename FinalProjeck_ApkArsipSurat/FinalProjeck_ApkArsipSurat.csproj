@@ -76,6 +76,12 @@
     <Compile Include="Input_surat_masuk.Designer.cs">
       <DependentUpon>Input_surat_masuk.cs</DependentUpon>
     </Compile>
+    <Compile Include="Jenis_surat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jenis_surat.Designer.cs">
+      <DependentUpon>Jenis_surat.cs</DependentUpon>
+    </Compile>
     <Compile Include="LaporanDisposisi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Input_surat_masuk.resx">
       <DependentUpon>Input_surat_masuk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jenis_surat.resx">
+      <DependentUpon>Jenis_surat.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LaporanDisposisi.resx">
       <DependentUpon>LaporanDisposisi.cs</DependentUpon>
