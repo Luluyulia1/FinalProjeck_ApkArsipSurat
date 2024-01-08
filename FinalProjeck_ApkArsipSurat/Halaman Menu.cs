@@ -1,19 +1,17 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
-namespace FinalProjeck_ApkArsipSurat
+namespace AplikasiArsipSurat
 {
-    public partial class Halaman_Menu : Form
+    public partial class Form_Utama : Form
     {
-        public Halaman_Menu()
+        public Form_Utama()
         {
             InitializeComponent();
         }
@@ -25,14 +23,57 @@ namespace FinalProjeck_ApkArsipSurat
             UserControl.BringToFront();
         }
 
-        private void button1_Click(object sender, EventArgs e) 
+        private void Form_Utama_Load(object sender, EventArgs e)
         {
-          
+            UC_Disposisi uc = new UC_Disposisi();
+            addUserControl(uc);
         }
 
-        private void panelNav_Paint(object sender, PaintEventArgs e)
+        private void btnSuratMasuk_Click(object sender, EventArgs e)
         {
-
+            UC_SuratMasuk uc = new UC_SuratMasuk();
+            addUserControl(uc);
         }
+
+        private void btnPengguna_Click(object sender, EventArgs e)
+        {
+            UC_Pengguna uc = new UC_Pengguna();
+            addUserControl(uc);
+        }
+
+        private void btnSuratKeluar_Click(object sender, EventArgs e)
+        {
+            UC_SuratKeluar uc = new UC_SuratKeluar();
+            addUserControl(uc);
+        }
+
+        private void btnJenisSurat_Click(object sender, EventArgs e)
+        {
+            UC_JenisSurat uc = new UC_JenisSurat();
+            addUserControl(uc);
+        }
+
+        private void btnStatus_Click(object sender, EventArgs e)
+        {
+            UC_Status uc = new UC_Status();
+            addUserControl(uc);
+        }
+
+        private void btnDisposisi_Click(object sender, EventArgs e)
+        {
+            UC_Disposisi uc = new UC_Disposisi();
+            addUserControl(uc);
+        }
+
+        private void btnKeluar_Click(object sender, EventArgs e)
+        {
+            Login p = new Login();
+            p.Show();
+            Close();
+        }
+
+    
+
+     
     }
 }
