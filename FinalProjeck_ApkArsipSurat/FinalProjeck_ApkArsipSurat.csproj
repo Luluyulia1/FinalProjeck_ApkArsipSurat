@@ -58,6 +58,12 @@
     <Compile Include="Halaman Menu.Designer.cs">
       <DependentUpon>Halaman Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="JenisSuratt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JenisSuratt.Designer.cs">
+      <DependentUpon>JenisSuratt.cs</DependentUpon>
+    </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Disposisi.resx">
       <DependentUpon>Disposisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JenisSuratt.resx">
+      <DependentUpon>JenisSuratt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
