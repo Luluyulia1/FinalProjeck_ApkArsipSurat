@@ -82,6 +82,12 @@
     <Compile Include="jenis_surat.Designer.cs">
       <DependentUpon>jenis_surat.cs</DependentUpon>
     </Compile>
+    <Compile Include="JSurat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JSurat.Designer.cs">
+      <DependentUpon>JSurat.cs</DependentUpon>
+    </Compile>
     <Compile Include="LaporanDisposisi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +134,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Input_surat_masuk.resx">
       <DependentUpon>Input_surat_masuk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JSurat.resx">
+      <DependentUpon>JSurat.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LaporanDisposisi.resx">
       <DependentUpon>LaporanDisposisi.cs</DependentUpon>
