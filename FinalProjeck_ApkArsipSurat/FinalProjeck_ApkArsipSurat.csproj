@@ -112,6 +112,12 @@
     <Compile Include="Menu Laporan.Designer.cs">
       <DependentUpon>Menu Laporan.cs</DependentUpon>
     </Compile>
+    <Compile Include="penggunaa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="penggunaa.Designer.cs">
+      <DependentUpon>penggunaa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="status.cs">
@@ -146,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menu Laporan.resx">
       <DependentUpon>Menu Laporan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="penggunaa.resx">
+      <DependentUpon>penggunaa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
